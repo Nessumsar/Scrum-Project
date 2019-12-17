@@ -132,6 +132,7 @@ body {
     width: 50%;
     margin: auto;
     font-size: 15px;
+    border: black solid 1px;
 }
 
 .login>button {
