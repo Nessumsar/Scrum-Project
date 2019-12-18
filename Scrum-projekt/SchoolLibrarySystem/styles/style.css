@@ -89,7 +89,7 @@ body {
     background-color: white;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
-    height: 1000px;
+    height: 900px;
     padding-top: 40px;
     padding-bottom: 50px;
 }
@@ -118,7 +118,6 @@ body {
     border-left: 1px solid #333;
     border-right: 1px solid #333;
     box-shadow: 0px 0px 10px #000000;
-    
 }
 
 .login {
