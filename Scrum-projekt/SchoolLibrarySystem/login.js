@@ -7,3 +7,21 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+function checkLogIn(){ //Ej färdigt
+    if(input name == "user"){
+        if(input password == "userpassword"){
+            window.open(userMain.html)
+        }
+    }
+    if(input name == "librarian"){
+        if(input password == "libpassword"){
+            window.open(librarianMain.html)
+        }
+    }
+    if(input name == "systemuser"){
+        if(input password == "systempassword"){
+            window.open(adminMain.html)
+        }
+    }
+}
