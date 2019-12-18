@@ -8,7 +8,7 @@ window.onclick = function(event) {
     }
 }
 
-function checkLogIn(){ //Ej färdigt
+/*function checkLogIn(){ 
     if(input name == "user"){
         if(input password == "userpassword"){
             window.open(userMain.html)
@@ -23,5 +23,6 @@ function checkLogIn(){ //Ej färdigt
         if(input password == "systempassword"){
             window.open(adminMain.html)
         }
-    }
+    } 
 }
+*/
