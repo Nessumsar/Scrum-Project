@@ -1,154 +1,146 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <nav class="navigation">
-            <ul>
-                <li>
-                    <ul class="links">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="search.html">Search</a></li>
-                    </ul>
-                    <li class="login-button"> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
-                </li>
-            </ul>
-        </nav>
-
-        <main>
-                <div id="id01" class="modal">
-                  
-                  <form class="modal-content animate" action="/action_page.php" method="post">
-                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+      <nav class="navigation">
+          <ul>
+              <li>
+                  <ul class="links">
+                      <li><a class="active" href="index.html">Home</a></li>
+                      <li><a href="search.html">Search</a></li>
+                  </ul>
+                  <li class="login-button"> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+              </li>
+          </ul>
+      </nav>
+      <main>
+        <div id="id01" class="modal">
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
                 
-                    <div class="container">
-                      <label for="uname"><b>Username</b></label>
-                      <input type="text" placeholder="Enter Username" name="uname" required>
-                
-                      <label for="psw"><b>Password</b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
-                        
-                      <button type="submit">Login</button>
-                      <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                      </label>
-                    </div>
-                
-                    <div class="container" style="background-color:#f1f1f1">
-                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                      <span class="psw">Forgot <a href="#">password?</a></span>
-                    </div>
-                  </form>
-                </div>
-       
-
-
-
-        <section class="main-window">
-                <h5>Step 1</h5>
-                <p>Bacon ipsum dolor amet pancetta jerky strip steak cupim. T-bone
-                        sirloin burgdoggen pork. Short ribs corned beef pastrami, drumstick
-                        pig shank ground round ball tip jerky pork. Pork loin doner kevin
-                        meatloaf shankle pork belly bacon chicken flank drumstick fatback
-                        landjaeger. Hamburger ground round short loin, buffalo shoulder ball
-                        tip swine pancetta pork loin brisket rump flank pork fatback corned
-                        beef. Porchetta buffalo jowl andouille ball tip short loin cupim
-                        sausage prosciutto chicken hamburger t-bone. Prosciutto sirloin
-                        beef, chicken drumstick boudin burgdoggen capicola pork chop
-                        pancetta ham hock flank sausage biltong buffalo. 
-                        <br><br>
-                            Brisket t-bone alcatra pastrami. Landjaeger spare ribs ground
-                            round bresaola pork rump. Shankle kevin frankfurter doner. Flank
-                            buffalo doner, pork belly tail chicken beef ribs ground round
-                            boudin venison cupim picanha meatball beef. Sirloin venison
-                            turducken ham hock chicken doner pork loin pastrami t-bone ball
-                            tip pig shankle salami. Buffalo landjaeger salami, venison
-                            prosciutto tail tongue drumstick andouille capicola ham hock
-                            bresaola. Flank venison jowl landjaeger turkey, pastrami pig
-                            tongue.
-                            <br><br>
-                            Beef frankfurter pancetta, swine brisket andouille turducken
-                            kevin ham spare ribs. Buffalo meatball burgdoggen tri-tip. Kevin
-                            beef ribs drumstick biltong chicken brisket chuck pancetta.
-                            Bresaola fatback andouille turkey tri-tip pork loin spare ribs
-                            salami hamburger swine. Pork loin venison prosciutto ribeye,
-                            chuck frankfurter chicken spare ribs filet mignon ground round
-                            tail tenderloin shank. Pork pork belly chicken, beef ribs salami
-                            meatloaf buffalo ball tip burgdoggen picanha shank kevin ribeye
-                            shankle. Capicola shank tri-tip tenderloin.
-                            <br><br>
-                            Flank doner venison corned beef tongue. Doner pork loin
-                            tenderloin porchetta kevin. Corned beef doner ham hock shank
-                            turducken prosciutto. Bacon andouille buffalo pork loin kevin,
-                            pig jowl rump short loin pork chop venison capicola shoulder.
-                            Cow tenderloin corned beef ham tail pastrami meatball ham hock
-                            pork chop turkey turducken. Hamburger beef ribs prosciutto strip
-                            steak, ribeye ham kevin pastrami jerky. Cow kielbasa porchetta
-                            pork belly doner shoulder.
-                            <br><br>
-                            Chuck sirloin hamburger pork. Kevin chicken tenderloin, flank
-                            prosciutto hamburger meatloaf porchetta doner shank filet mignon
-                            cupim beef ribs. Pig flank turducken, tri-tip sausage burgdoggen
-                            strip steak leberkas ham hock porchetta t-bone doner. Pancetta
-                            sirloin turkey short ribs, bresaola kevin jowl meatloaf boudin
-                            ham hock fatback picanha sausage pork chop. Tri-tip chicken
-                            hamburger, chuck cupim strip steak tongue drumstick meatball
-                            doner turkey pork ham hock. Alcatra tenderloin porchetta
-                            capicola.</p>
-                        <div id="border2"></div>
-                        <h5>Step 2</h5>
-                        <p>Bacon ipsum dolor amet tail leberkas pork chop jowl burgdoggen
-                        tri-tip, spare ribs bacon ham ground round andouille strip steak
-                        t-bone ball tip corned beef. Turducken leberkas rump, shankle swine
-                        fatback shoulder. Rump porchetta ham hock pancetta ham andouille
-                        tenderloin prosciutto salami frankfurter cupim jowl chicken.
-                        Pancetta shankle turducken pork tri-tip alcatra corned beef short
-                        ribs bacon fatback ribeye ham andouille frankfurter tongue.
-                        Frankfurter capicola bresaola, corned beef meatball flank doner
-                        ground round. Shankle ground round meatloaf kielbasa flank.
-                        <br><br>
-                            Jerky cow tongue, shank filet mignon buffalo capicola pork
-                            biltong porchetta ball tip shoulder rump drumstick. Kielbasa ham
-                            hock andouille, prosciutto beef tenderloin leberkas bresaola
-                            shank doner rump ribeye. Salami doner brisket, tongue corned
-                            beef ribeye shoulder. Tongue pork loin ground round bacon
-                            kielbasa.
-                            <br><br>
-                            Short loin capicola tri-tip hamburger t-bone. T-bone shank
-                            turducken ground round rump leberkas shoulder cupim ribeye
-                            shankle tail. Bresaola ribeye fatback, tongue ham pancetta
-                            burgdoggen turkey. Doner beef ribs rump cupim picanha short
-                            loin. Cow frankfurter jowl, ham picanha short ribs brisket kevin
-                            hamburger.
-                            <br><br>
-                            Flank brisket pancetta bacon, rump meatball swine spare ribs
-                            sausage kielbasa frankfurter turducken meatloaf. Jerky meatball
-                            pastrami swine, venison filet mignon jowl kevin ground round
-                            fatback rump leberkas hamburger brisket. Pork brisket andouille
-                            kielbasa, pastrami shankle pork loin leberkas turkey pancetta.
-                            Pig sirloin corned beef, meatball ball tip flank turducken
-                            salami porchetta filet mignon tongue meatloaf alcatra.
-                            <br><br>
-                            Ball tip venison turducken frankfurter short loin. Venison
-                            bresaola tongue spare ribs pork loin. Buffalo pork loin biltong
-                            spare ribs, ham hock picanha kielbasa salami pig corned beef
-                            beef ribs tongue hamburger shoulder. Landjaeger shoulder pork
-                            belly doner jowl, beef meatball shankle shank burgdoggen buffalo
-                            alcatra. Pork loin strip steak chuck shankle, chicken jerky
-                            alcatra kielbasa leberkas rump corned beef pancetta bacon
-                            tongue. Picanha kielbasa pig filet mignon, meatloaf bresaola
-                            pork belly chicken landjaeger shank frankfurter ham hock corned
-                            beef.</p>
-        </section>
-        </main>
-        <footer class="tools">
-        </footer>
-        <script src="backend.js" async defer></script>
-    </body>
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+      <section class="main-window">
+        <h5>Step 1</h5>
+        <p>Bacon ipsum dolor amet pancetta jerky strip steak cupim. T-bone
+          sirloin burgdoggen pork. Short ribs corned beef pastrami, drumstick
+          pig shank ground round ball tip jerky pork. Pork loin doner kevin
+          meatloaf shankle pork belly bacon chicken flank drumstick fatback
+          landjaeger. Hamburger ground round short loin, buffalo shoulder ball
+          tip swine pancetta pork loin brisket rump flank pork fatback corned
+          beef. Porchetta buffalo jowl andouille ball tip short loin cupim
+          sausage prosciutto chicken hamburger t-bone. Prosciutto sirloin
+          beef, chicken drumstick boudin burgdoggen capicola pork chop
+          pancetta ham hock flank sausage biltong buffalo. 
+          <br><br>
+              Brisket t-bone alcatra pastrami. Landjaeger spare ribs ground
+              round bresaola pork rump. Shankle kevin frankfurter doner. Flank
+              buffalo doner, pork belly tail chicken beef ribs ground round
+              boudin venison cupim picanha meatball beef. Sirloin venison
+              turducken ham hock chicken doner pork loin pastrami t-bone ball
+              tip pig shankle salami. Buffalo landjaeger salami, venison
+              prosciutto tail tongue drumstick andouille capicola ham hock
+              bresaola. Flank venison jowl landjaeger turkey, pastrami pig
+              tongue.
+              <br><br>
+              Beef frankfurter pancetta, swine brisket andouille turducken
+              kevin ham spare ribs. Buffalo meatball burgdoggen tri-tip. Kevin
+              beef ribs drumstick biltong chicken brisket chuck pancetta.
+              Bresaola fatback andouille turkey tri-tip pork loin spare ribs
+              salami hamburger swine. Pork loin venison prosciutto ribeye,
+              chuck frankfurter chicken spare ribs filet mignon ground round
+              tail tenderloin shank. Pork pork belly chicken, beef ribs salami
+              meatloaf buffalo ball tip burgdoggen picanha shank kevin ribeye
+              shankle. Capicola shank tri-tip tenderloin.
+              <br><br>
+              Flank doner venison corned beef tongue. Doner pork loin
+              tenderloin porchetta kevin. Corned beef doner ham hock shank
+              turducken prosciutto. Bacon andouille buffalo pork loin kevin,
+              pig jowl rump short loin pork chop venison capicola shoulder.
+              Cow tenderloin corned beef ham tail pastrami meatball ham hock
+              pork chop turkey turducken. Hamburger beef ribs prosciutto strip
+              steak, ribeye ham kevin pastrami jerky. Cow kielbasa porchetta
+              pork belly doner shoulder.
+              <br><br>
+              Chuck sirloin hamburger pork. Kevin chicken tenderloin, flank
+              prosciutto hamburger meatloaf porchetta doner shank filet mignon
+              cupim beef ribs. Pig flank turducken, tri-tip sausage burgdoggen
+              strip steak leberkas ham hock porchetta t-bone doner. Pancetta
+              sirloin turkey short ribs, bresaola kevin jowl meatloaf boudin
+              ham hock fatback picanha sausage pork chop. Tri-tip chicken
+              hamburger, chuck cupim strip steak tongue drumstick meatball
+              doner turkey pork ham hock. Alcatra tenderloin porchetta
+              capicola.</p>
+          <div id="border2"></div>
+          <h5>Step 2</h5>
+          <p>Bacon ipsum dolor amet tail leberkas pork chop jowl burgdoggen
+          tri-tip, spare ribs bacon ham ground round andouille strip steak
+          t-bone ball tip corned beef. Turducken leberkas rump, shankle swine
+          fatback shoulder. Rump porchetta ham hock pancetta ham andouille
+          tenderloin prosciutto salami frankfurter cupim jowl chicken.
+          Pancetta shankle turducken pork tri-tip alcatra corned beef short
+          ribs bacon fatback ribeye ham andouille frankfurter tongue.
+          Frankfurter capicola bresaola, corned beef meatball flank doner
+          ground round. Shankle ground round meatloaf kielbasa flank.
+          <br><br>
+              Jerky cow tongue, shank filet mignon buffalo capicola pork
+              biltong porchetta ball tip shoulder rump drumstick. Kielbasa ham
+              hock andouille, prosciutto beef tenderloin leberkas bresaola
+              shank doner rump ribeye. Salami doner brisket, tongue corned
+              beef ribeye shoulder. Tongue pork loin ground round bacon
+              kielbasa.
+              <br><br>
+              Short loin capicola tri-tip hamburger t-bone. T-bone shank
+              turducken ground round rump leberkas shoulder cupim ribeye
+              shankle tail. Bresaola ribeye fatback, tongue ham pancetta
+              burgdoggen turkey. Doner beef ribs rump cupim picanha short
+              loin. Cow frankfurter jowl, ham picanha short ribs brisket kevin
+              hamburger.
+              <br><br>
+              Flank brisket pancetta bacon, rump meatball swine spare ribs
+              sausage kielbasa frankfurter turducken meatloaf. Jerky meatball
+              pastrami swine, venison filet mignon jowl kevin ground round
+              fatback rump leberkas hamburger brisket. Pork brisket andouille
+              kielbasa, pastrami shankle pork loin leberkas turkey pancetta.
+              Pig sirloin corned beef, meatball ball tip flank turducken
+              salami porchetta filet mignon tongue meatloaf alcatra.
+              <br><br>
+              Ball tip venison turducken frankfurter short loin. Venison
+              bresaola tongue spare ribs pork loin. Buffalo pork loin biltong
+              spare ribs, ham hock picanha kielbasa salami pig corned beef
+              beef ribs tongue hamburger shoulder. Landjaeger shoulder pork
+              belly doner jowl, beef meatball shankle shank burgdoggen buffalo
+              alcatra. Pork loin strip steak chuck shankle, chicken jerky
+              alcatra kielbasa leberkas rump corned beef pancetta bacon
+              tongue. Picanha kielbasa pig filet mignon, meatloaf bresaola
+              pork belly chicken landjaeger shank frankfurter ham hock corned
+              beef.</p>
+      </section>
+      </main>
+      <footer class="tools">
+      </footer>
+      <script src="backend.js" async defer></script>
+  </body>
 </html>
