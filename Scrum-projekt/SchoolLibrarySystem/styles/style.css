@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #C0D890;
+    background-color: #649666;
     font-family: 'Roboto', sans-serif;
     line-height: normal;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .login-button>a:hover {
-    background-color: #595959;
+    opacity: 0.8;
 }
 
 .tools {
@@ -130,18 +130,18 @@ body {
     position: relative;
 }
 
-.container {
+#container {
   margin-top: 40px;
-  
 }
 
-.col-sm>p {
+.col-sm {
   z-index: 0;
   position: relative;
   border: 1px solid #333;
   text-align: center;
-  padding: 100px;
-  height: 200px;
+  padding: 150px;
+  height: 300px;
+  margin: 30px;
 }
 
 #search-bar {
