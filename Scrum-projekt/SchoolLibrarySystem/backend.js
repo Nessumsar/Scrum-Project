@@ -1,6 +1,5 @@
 window.onload = function() {
     renderBooks();
-    document.getElementById("search").addEventListener("click", searchBooks);
     for(let i=0; i<document.getElementsByClassName("col-sm").length; i++) {
         document.getElementsByClassName("col-sm")[i].addEventListener("click", selectedBook);
     }
@@ -32,24 +31,6 @@ function renderBooks() {
     }
 }
 
-function searchBooks() {
-    var input, filter, grid, li, a, i, txtValue;
-    input = document.getElementById("search-bar");
-    filter = input.value.toUpperCase();
-    grid = document.getElementById("container");
-    li = grid.getElementsByTagName("Text");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("text")[0];
-        txtValue = a.textContent || a.innerText;
-        console.log(txtValue.toUpperCase().indexOf(filter));
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-
 function selectedBook(e) {
     let event = e.target;
     if(event.style.boxShadow==="darkblue 0px 0px 20px 2px") {
@@ -68,4 +49,13 @@ function borrowBooks(e) {
             document.getElementsByClassName("col-sm")[i].style.boxShadow = "0px 0px 10px 2px black";
         }
     }
-}
+} 
+
+$(document).ready(function(){
+    $("#search-bar").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $(".col-sm").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
