@@ -27,7 +27,6 @@ body {
   display: inline-block;
 }
 
-
 .links {
     list-style-type: none;
     margin: 0px;
@@ -98,9 +97,8 @@ body {
     margin: auto;
     background-color: white;
     border: 1px solid #333;
-    height: auto;
+    height: 4850px;
     padding-top: 40px;
-    padding-bottom: 50px;
 }
 
 .main-window>p {
@@ -132,16 +130,19 @@ body {
 
 #container {
   margin-top: 40px;
+  width: 90%;
+  margin: auto;
 }
 
 .col-sm {
-  z-index: 0;
-  position: relative;
-  border: 1px solid #333;
   text-align: center;
-  padding: 150px;
-  height: 300px;
-  margin: 30px;
+  padding: 10px;
+  margin: 50px 40px 10px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.col-sm>img {
+  margin-bottom: 20px;
 }
 
 #search-bar {
@@ -149,6 +150,22 @@ body {
   width: 50%;
   margin-left: 50px;
   border: #000 solid 1px;
+}
+
+#accept {
+  float: right;
+  width: 10%;
+  margin-right: 20px;
+  position: relative;
+  bottom: -20px;
+}
+
+#search {
+  float: right;
+  width: 10%;
+  margin-right: 450px;
+  position: relative;
+  top: 40px;
 }
                 
 /* Full-width input fields */

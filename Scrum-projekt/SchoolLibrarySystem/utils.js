@@ -31,4 +31,4 @@ var books = [
     {"id": 30, "Title" : "Liv till varje pris", "Author" : "Kristina Sandberg", "Link" : "https://www.adlibris.com/se/bok/liv-till-varje-pris-9789113061863", "Remaining" : 3, "Picture" : "https://s1.adlibris.com/images/15789328/liv-till-varje-pris.jpg"},
 ];
 
-console.log(books);
+//console.log(books);
